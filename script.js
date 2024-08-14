@@ -44,7 +44,7 @@ const loadMissileJson = () => {
 };
 
 
-const managerfunction
+
 
 
 //  document.getElementById('allmissile').addEventListener('click', () => loadMissileJson('allmissile'));
