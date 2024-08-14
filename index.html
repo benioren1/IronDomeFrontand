@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack Server</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Google Fonts for better typography -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+<body>
+    <h1 class="Main-headline">Attack Server</h1>
+    
+    <div class="container">
+        <div id="left-side" class="side">
+            <div id="missiles-div" class="mis">
+                <h2>Missiles in Air</h2>
+            </div>
+            <div id="intercepted-missiles-div" class="mis">
+                <h2>Intercepted Missiles</h2>
+            </div>
+        </div>
+        <div id="right-side" class="side">
+            <div id="failed-intercepts-div" class="mis">
+                <h2>Failed Intercepts</h2>
+            </div>
+            <div id="mis-div" class="mis">
+                <h2>Recent Actions</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <!-- <button id="allmissile" onclick="loadMissileJson()">Load Missiles</button> -->
+        <button id="publish!" onclick="sendPublish()">Publish</button>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
